@@ -8,7 +8,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-100%);
 }
 
 .google{
@@ -26,7 +26,7 @@
 
 input[type="text"]{
 position: absolute;
-width: 120%;
+width: 115%;
 height: 100%;
 border: 1px solid #d5d4d4;
 left: 0;
@@ -50,16 +50,28 @@ font-family: noto sans hk;
 .mic{
     position: absolute;
     width: 13px;
-    right: -55px;
+    right: -30px;
     top: 13px;
 }
 
 .lens{
     position: absolute;
     width: 18px;
-    right: -85px;
+    right: -60px;
     top: 14px;
 }
  .sbutton{
-    
+    position: relative;
+    top: 100px;
+    text-align: center;
+ }
+
+ input[type="button"]{
+    background: #ebe8e8;
+    border: none;
+    padding: 8px 20px;
+    margin: 10px;
+    color: #4e4d4d;
+    border-radius: 5px;
+    outline: none;
  }
