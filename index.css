@@ -66,6 +66,18 @@ font-family: noto sans hk;
     text-align: center;
  }
 
+ .sbutton a{
+    text-decoration: none;
+    color: rgb(10, 10, 138);
+ }
+ 
+ .sbutton a:hover{
+    text-decoration: underline;
+ }
+
+ small{
+    color: #4e4d4d;
+ }
  input[type="button"]{
     background: #ebe8e8;
     border: none;
@@ -89,23 +101,28 @@ box-shadow: 0 0 2px black;
  }
 
  .profile{
-    width: 30px;
+    width: 28px;
     border-radius: 50%;
-    margin: 5px 20px 20px 0;
+    margin: 10px 20px 5px 0px;
  }
 
  .navtext{
     color: #444;
     text-decoration: none;
-    top: -8px;
+    top: 4px;
     position: relative;
     margin: 5px;
+    left: -20px
  }
 
+ .navtext:hover{
+    text-decoration: underline;
+ }
  .apps{
     position: relative;
     margin: 10px;
-    top:-1px;
+    top:10px;
     color: #555;
     cursor: pointer;
+    left: -10px;
  }
