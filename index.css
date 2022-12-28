@@ -75,3 +75,37 @@ font-family: noto sans hk;
     border-radius: 5px;
     outline: none;
  }
+
+ input[type="button"]:hover{
+background:#ebe8e8 ;
+color: black;
+box-shadow: 0 0 2px black;
+ }
+
+ nav{
+    float: right;
+    font-family: arial;
+    font-size: 13px;
+ }
+
+ .profile{
+    width: 30px;
+    border-radius: 50%;
+    margin: 5px 20px 20px 0;
+ }
+
+ .navtext{
+    color: #444;
+    text-decoration: none;
+    top: -8px;
+    position: relative;
+    margin: 5px;
+ }
+
+ .apps{
+    position: relative;
+    margin: 10px;
+    top:-1px;
+    color: #555;
+    cursor: pointer;
+ }
