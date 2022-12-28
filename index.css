@@ -103,7 +103,7 @@ box-shadow: 0 0 2px black;
  .profile{
     width: 28px;
     border-radius: 50%;
-    margin: 10px 20px 5px 0px;
+    margin: 10px 40px 8px 0px;
  }
 
  .navtext{
@@ -126,3 +126,54 @@ box-shadow: 0 0 2px black;
     cursor: pointer;
     left: -10px;
  }
+
+ .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+ }
+
+ 
+
+ .footer .row-row1{
+    margin-left: 45px;
+    color: #777;
+    bottom: 1px solid ;
+ }
+
+
+
+ .footer .row.row2 {
+    justify-content: space-between;
+    margin-left: 2px;
+ }
+
+ .footer .row.row2 ul{
+    display: flex;
+ }
+ 
+ .footer .row.row2 ul li{
+    list-style: none;
+ }
+
+ .footer .row.row2 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #777;
+    margin-right: 25px;
+ }
+
+ .footer .row.row2 ul li a:hover{
+    text-decoration: underline;
+ }
+
+ .footer .row.row2 ul:nth-child(2) li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #777;
+    margin-right: 0px;
+    margin-left: 25px; 
+ }
+ 
